@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title></title>
+      <link href="/2024/05/21/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80%E7%AC%AC1%E8%AF%BE-%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5%EF%BC%88Reward,return,MDP%E7%AD%89%EF%BC%89/"/>
+      <url>/2024/05/21/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80%E7%AC%AC1%E8%AF%BE-%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5%EF%BC%88Reward,return,MDP%E7%AD%89%EF%BC%89/</url>
+      
+        <content type="html"><![CDATA[<p><a name="Ti16y"></a></p><h3 id="1-reward"><a href="#1-reward" class="headerlink" title="1.reward"></a>1.reward</h3><p>一般来讲正数为鼓励，正向的鼓励对智能体有奖励，负向的鼓励对智能体有惩罚，0表示无惩罚也无奖励。<br>特殊情况下用表格法，在一般情况下用条件概率。<br>reward依赖于当前状态和action，而不依赖于下一个状态（不看结果只看过程）（实际上是下一个状态可以由当前状态和action表示）<br><a name="P5vgv"></a></p><h3 id="2-trajectory和return"><a href="#2-trajectory和return" class="headerlink" title="2.trajectory和return"></a>2.trajectory和return</h3><p>trajectory是从头到尾的一个链条<br>return是从头到尾的reward之和<br>return用来判断trajectory的好坏程度<br><a name="AkBlj"></a></p><h3 id="3-discounted-return"><a href="#3-discounted-return" class="headerlink" title="3.discounted return"></a>3.discounted return</h3><p>通过引入discount rate来防止return的发散，得到discount return，<br><a name="GPZTc"></a></p><h3 id="4-episode"><a href="#4-episode" class="headerlink" title="4.episode"></a>4.episode</h3><p>Option 2: Treat the target state as a normal state with a policy. The agentcan still leave the target state and gain r=+l when entering the target state.我们把target state当作正常的一个状态给与reward。<br><a name="M74jK"></a></p><h3 id="5-MDP-马尔科夫决策"><a href="#5-MDP-马尔科夫决策" class="headerlink" title="5.MDP 马尔科夫决策"></a>5.MDP 马尔科夫决策</h3>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>考研总结</title>
       <link href="/2024/04/18/%E8%80%83%E7%A0%94%E6%80%BB%E7%BB%93/"/>
       <url>/2024/04/18/%E8%80%83%E7%A0%94%E6%80%BB%E7%BB%93/</url>
